@@ -11,3 +11,6 @@ while True :
 		break
 	print(data.decode())
 mysock.close()
+
+#https://bitcointalk.org/index.php?board=67.0
+#http://data.pr4e.org/romeo.txt
