@@ -1,6 +1,5 @@
 import urllib.request, urllib.parse, urllib.error
 
-lst = list()
-fhand = urllib.request.urlopen('http://bitcointalk.com')
+fhand = urllib.request.urlopen('http://data.pr4e.org/romeo.txt')
 for line in fhand :
 	print(line.strip().decode())
